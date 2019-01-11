@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 
-class Footer extends Component {
-
-  render() {
+const Footer = (props) => {
     return (
       <nav className="navbar navbar-dark bg-dark">
-        <a className="navbar-brand" href="#">© {this.props.copyright}</a>
+        <a className="navbar-brand" href="#">© {props.copyright}</a>
       </nav>
       );
-  }
 }
 
 export default Footer;
