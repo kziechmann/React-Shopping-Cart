@@ -25,8 +25,8 @@ class App extends Component {
         { id: 47, name: 'Ergonomic Bronze Lamp', priceInCents: 40000 },
         { id: 48, name: 'Awesome Leather Shoes', priceInCents: 3990 },
       ],
-    itemToAdd: "",
-    quantity:0
+    itemToAdd: "Mediocre Iron Watch",
+    quantity: 1
   }
 
   handleSubmit = (event) => {
